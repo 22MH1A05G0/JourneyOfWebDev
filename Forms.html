@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label>UserName:
+            <input type="text" placeholder="enter the usename" name="username">
+            </label>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="enter the password">
+        </div>
+        <div>
+            <label for="age">I am 18+</label>
+            <input type="checkbox" id="age" name="age">
+        </div>
+         <div>
+            <label for="Apple">Apple</label>
+            <label for="Mango">Mango</label>
+            <label for="Guava">Guava </label>
+            <input type="radio" name="fruit" id="Apple" value="Apple">
+            <input type="radio" name="fruit" id="Mango" value="Mango">
+            <input type="radio" name="fruit" id="Guava" value="Guava">
+         </div>
+         <div>
+            <label for="profession">Profession</label>
+            <select name="profession" id="profession">
+                <option>Select your option</option>
+                <option value="student">student</option>
+                <option value="dev">developer</option>
+            </select>         
+        </div>
+        <div>
+            <label for="volume">Volume</label>
+            <input type="range" id="volume" min="0" max="100" step="10" name="volume" value="70">
+        </div>
+        <div>
+            <label for="textarea">Enter any comments</label>
+            <textarea id="textarea" name="feedback" rows="5" cols="15" placeholder="write your feedback"></textarea>
+        </div>
+        <button>Submit</button>   
+        <button type="button">hello</button>
+        <button type="reset">reset</button>
+        <input type="button" value="click me">
+        <hr>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="enter the text" name="search_query">
+        <button>submit</button>
+    </form>
+    
+</body>
+</html> 
