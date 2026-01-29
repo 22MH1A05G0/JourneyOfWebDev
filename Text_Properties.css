@@ -1,0 +1,40 @@
+p{
+   /* text-align: center;*/
+   /*text-align: justify;*/
+   text-align: right;
+   width: 50%;
+}
+
+h4{
+    text-align: justify;
+    width: 105%;
+    font-weight: lighter;
+    line-height: 2;
+    letter-spacing:normal;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: 500;  
+    text-decoration: wavy rgb(14, 14, 15) underline;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+h3{
+    font-weight: lighter;
+    line-height: 5;
+}
+
+h1{
+    text-decoration: red line-through;
+    letter-spacing: 20px;
+    font-family: copperplate;
+}
+
+h5{
+    text-decoration: double  blue overline;
+}
+
+a{
+    text-decoration: none;
+}

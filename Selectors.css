@@ -1,0 +1,108 @@
+/*Universal Selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:white;
+    
+}
+
+/*Element Selector*/
+h3 , h1 {
+    color: red;
+}
+
+/*Id Selector*/
+#MyId{
+    color: brown;
+}  
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: red;
+    color: white;
+}
+
+/*Class Selector*/
+.follow{
+    background-color: violet;
+    color: black;
+}
+.upvote{
+    background-color: rgb(91, 213, 91);
+    
+}
+
+/*descendant Selector*/
+div p{
+    color: chocolate;
+    font-weight: 700;
+}
+
+nav ul li a{
+    color: darksalmon;
+}
+
+/*Sibling Combinator*/
+p+h3{
+    color:rgb(215, 16, 115);
+    text-decoration: double underline;
+}
+.upvote + button {
+    color: black;
+    background-color: firebrick;
+}
+
+/*child Combinator*/
+span>button{
+    font-size: 20px;
+    font-weight: 700;
+}
+div>input{
+    background-color: yellow;
+}
+
+/*Attribute Selector*/
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: grey;
+}
+
+/*Pseudo Class*/
+button:hover{
+    color: white;
+    background-color: black;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    color: red;
+}
+
+p:active{
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight:bold;
+}
+
+follow:nth-of-type(2){
+    background-color: gold;
+}
+
+h1::first-letter{
+    color: green;
+}
+
+p::first-line{
+    color:red;
+}
+
+p::selection{
+    background-color: aqua ;
+}
